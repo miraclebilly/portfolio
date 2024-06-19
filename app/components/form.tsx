@@ -3,7 +3,7 @@
 export default function Form() {
     
         return (
-            <div className="min-h-screen flex items-center justify-center bg-slate-950 py-12 px-4">
+            <div id="section2" className="min-h-screen flex items-center justify-center bg-slate-950 py-12 px-4">
               <div className="bg-white shadow-md rounded-lg p-8 max-w-md w-full">
                 <h1 className="text-4xl font-bold text-center mb-8 text-gray-900">Send Me a Message</h1>
                 <h2 className="text-xl font-semibold mb-6 text-gray-800 text-center">Got a Question or a Proposal? Go right ahead!</h2>
