@@ -5,7 +5,7 @@ import X from '../../public/x.png';
 
 export default function Footer() {
     return (
-        <footer className="bg-white text-black py-6">
+        <footer className="dark:bg-gray-900 bg-gray-200 text-black py-6">
             <div className="container mx-auto px-4 text-center">
                 <div className="flex justify-center space-x-4 mb-4">
                     <a href="https://github.com/miraclebilly" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity duration-300">
@@ -19,7 +19,7 @@ export default function Footer() {
                     </a>
 
                 </div>
-                <p className="text-sm">&copy; {new Date().getFullYear()} Miracle Billy. All rights reserved.</p>
+                <p className="dark:text-white text-sm">&copy; {new Date().getFullYear()} Miracle Billy. All rights reserved.</p>
             </div>
         </footer>
     );
