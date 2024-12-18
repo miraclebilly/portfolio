@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Header() {
-    const cv = "https://drive.google.com/file/d/1t6RU7K0AdCebQ_lsrdUvoZp7Ewe1iHbu/view";
+    const cv = "https://drive.google.com/file/d/1xsO1HwHjVak2FBwETFzS9EeHfjuNG52r/view?usp=sharing";
     const [darkMode, setDarkMode] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
     
